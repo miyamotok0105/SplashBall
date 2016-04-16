@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEFB15451CBFDE8600D728FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB15441CBFDE8600D728FF /* main.m */; };
+		CEFB15481CBFDE8600D728FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB15471CBFDE8600D728FF /* AppDelegate.m */; };
+		CEFB154B1CBFDE8600D728FF /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB154A1CBFDE8600D728FF /* GameScene.m */; };
+		CEFB154D1CBFDE8600D728FF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CEFB154C1CBFDE8600D728FF /* GameScene.sks */; };
+		CEFB15501CBFDE8600D728FF /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB154F1CBFDE8600D728FF /* GameViewController.m */; };
+		CEFB15531CBFDE8600D728FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB15511CBFDE8600D728FF /* Main.storyboard */; };
+		CEFB15551CBFDE8600D728FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFB15541CBFDE8600D728FF /* Assets.xcassets */; };
+		CEFB15581CBFDE8600D728FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFB15561CBFDE8600D728FF /* LaunchScreen.storyboard */; };
+		CEFB15631CBFDE8600D728FF /* SplashBallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB15621CBFDE8600D728FF /* SplashBallTests.m */; };
+		CEFB156E1CBFDE8600D728FF /* SplashBallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFB156D1CBFDE8600D728FF /* SplashBallUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFB155F1CBFDE8600D728FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFB15381CBFDE8600D728FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFB153F1CBFDE8600D728FF;
+			remoteInfo = SplashBall;
+		};
+		CEFB156A1CBFDE8600D728FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFB15381CBFDE8600D728FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFB153F1CBFDE8600D728FF;
+			remoteInfo = SplashBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEFB15401CBFDE8600D728FF /* SplashBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB15441CBFDE8600D728FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEFB15461CBFDE8600D728FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEFB15471CBFDE8600D728FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEFB15491CBFDE8600D728FF /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CEFB154A1CBFDE8600D728FF /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CEFB154C1CBFDE8600D728FF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CEFB154E1CBFDE8600D728FF /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CEFB154F1CBFDE8600D728FF /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CEFB15521CBFDE8600D728FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFB15541CBFDE8600D728FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFB15571CBFDE8600D728FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFB15591CBFDE8600D728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB155E1CBFDE8600D728FF /* SplashBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB15621CBFDE8600D728FF /* SplashBallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashBallTests.m; sourceTree = "<group>"; };
+		CEFB15641CBFDE8600D728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFB15691CBFDE8600D728FF /* SplashBallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashBallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFB156D1CBFDE8600D728FF /* SplashBallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashBallUITests.m; sourceTree = "<group>"; };
+		CEFB156F1CBFDE8600D728FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFB153D1CBFDE8600D728FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB155B1CBFDE8600D728FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB15661CBFDE8600D728FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEFB15371CBFDE8600D728FF = {
+			isa = PBXGroup;
+			children = (
+				CEFB15421CBFDE8600D728FF /* SplashBall */,
+				CEFB15611CBFDE8600D728FF /* SplashBallTests */,
+				CEFB156C1CBFDE8600D728FF /* SplashBallUITests */,
+				CEFB15411CBFDE8600D728FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFB15411CBFDE8600D728FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB15401CBFDE8600D728FF /* SplashBall.app */,
+				CEFB155E1CBFDE8600D728FF /* SplashBallTests.xctest */,
+				CEFB15691CBFDE8600D728FF /* SplashBallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFB15421CBFDE8600D728FF /* SplashBall */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB15461CBFDE8600D728FF /* AppDelegate.h */,
+				CEFB15471CBFDE8600D728FF /* AppDelegate.m */,
+				CEFB15491CBFDE8600D728FF /* GameScene.h */,
+				CEFB154A1CBFDE8600D728FF /* GameScene.m */,
+				CEFB154C1CBFDE8600D728FF /* GameScene.sks */,
+				CEFB154E1CBFDE8600D728FF /* GameViewController.h */,
+				CEFB154F1CBFDE8600D728FF /* GameViewController.m */,
+				CEFB15511CBFDE8600D728FF /* Main.storyboard */,
+				CEFB15541CBFDE8600D728FF /* Assets.xcassets */,
+				CEFB15561CBFDE8600D728FF /* LaunchScreen.storyboard */,
+				CEFB15591CBFDE8600D728FF /* Info.plist */,
+				CEFB15431CBFDE8600D728FF /* Supporting Files */,
+			);
+			path = SplashBall;
+			sourceTree = "<group>";
+		};
+		CEFB15431CBFDE8600D728FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB15441CBFDE8600D728FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFB15611CBFDE8600D728FF /* SplashBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB15621CBFDE8600D728FF /* SplashBallTests.m */,
+				CEFB15641CBFDE8600D728FF /* Info.plist */,
+			);
+			path = SplashBallTests;
+			sourceTree = "<group>";
+		};
+		CEFB156C1CBFDE8600D728FF /* SplashBallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFB156D1CBFDE8600D728FF /* SplashBallUITests.m */,
+				CEFB156F1CBFDE8600D728FF /* Info.plist */,
+			);
+			path = SplashBallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFB153F1CBFDE8600D728FF /* SplashBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB15721CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBall" */;
+			buildPhases = (
+				CEFB153C1CBFDE8600D728FF /* Sources */,
+				CEFB153D1CBFDE8600D728FF /* Frameworks */,
+				CEFB153E1CBFDE8600D728FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashBall;
+			productName = SplashBall;
+			productReference = CEFB15401CBFDE8600D728FF /* SplashBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFB155D1CBFDE8600D728FF /* SplashBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB15751CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBallTests" */;
+			buildPhases = (
+				CEFB155A1CBFDE8600D728FF /* Sources */,
+				CEFB155B1CBFDE8600D728FF /* Frameworks */,
+				CEFB155C1CBFDE8600D728FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFB15601CBFDE8600D728FF /* PBXTargetDependency */,
+			);
+			name = SplashBallTests;
+			productName = SplashBallTests;
+			productReference = CEFB155E1CBFDE8600D728FF /* SplashBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFB15681CBFDE8600D728FF /* SplashBallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFB15781CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBallUITests" */;
+			buildPhases = (
+				CEFB15651CBFDE8600D728FF /* Sources */,
+				CEFB15661CBFDE8600D728FF /* Frameworks */,
+				CEFB15671CBFDE8600D728FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFB156B1CBFDE8600D728FF /* PBXTargetDependency */,
+			);
+			name = SplashBallUITests;
+			productName = SplashBallUITests;
+			productReference = CEFB15691CBFDE8600D728FF /* SplashBallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFB15381CBFDE8600D728FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = USER;
+				TargetAttributes = {
+					CEFB153F1CBFDE8600D728FF = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CEFB155D1CBFDE8600D728FF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEFB153F1CBFDE8600D728FF;
+					};
+					CEFB15681CBFDE8600D728FF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CEFB153F1CBFDE8600D728FF;
+					};
+				};
+			};
+			buildConfigurationList = CEFB153B1CBFDE8600D728FF /* Build configuration list for PBXProject "SplashBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFB15371CBFDE8600D728FF;
+			productRefGroup = CEFB15411CBFDE8600D728FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFB153F1CBFDE8600D728FF /* SplashBall */,
+				CEFB155D1CBFDE8600D728FF /* SplashBallTests */,
+				CEFB15681CBFDE8600D728FF /* SplashBallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFB153E1CBFDE8600D728FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB154D1CBFDE8600D728FF /* GameScene.sks in Resources */,
+				CEFB15581CBFDE8600D728FF /* LaunchScreen.storyboard in Resources */,
+				CEFB15551CBFDE8600D728FF /* Assets.xcassets in Resources */,
+				CEFB15531CBFDE8600D728FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB155C1CBFDE8600D728FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB15671CBFDE8600D728FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFB153C1CBFDE8600D728FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB15501CBFDE8600D728FF /* GameViewController.m in Sources */,
+				CEFB15481CBFDE8600D728FF /* AppDelegate.m in Sources */,
+				CEFB154B1CBFDE8600D728FF /* GameScene.m in Sources */,
+				CEFB15451CBFDE8600D728FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB155A1CBFDE8600D728FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB15631CBFDE8600D728FF /* SplashBallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFB15651CBFDE8600D728FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFB156E1CBFDE8600D728FF /* SplashBallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFB15601CBFDE8600D728FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFB153F1CBFDE8600D728FF /* SplashBall */;
+			targetProxy = CEFB155F1CBFDE8600D728FF /* PBXContainerItemProxy */;
+		};
+		CEFB156B1CBFDE8600D728FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFB153F1CBFDE8600D728FF /* SplashBall */;
+			targetProxy = CEFB156A1CBFDE8600D728FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFB15511CBFDE8600D728FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB15521CBFDE8600D728FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFB15561CBFDE8600D728FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFB15571CBFDE8600D728FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFB15701CBFDE8600D728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEFB15711CBFDE8600D728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFB15731CBFDE8600D728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEFB15741CBFDE8600D728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SplashBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEFB15761CBFDE8600D728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SplashBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashBall.app/SplashBall";
+			};
+			name = Debug;
+		};
+		CEFB15771CBFDE8600D728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashBall.app/SplashBall";
+			};
+			name = Release;
+		};
+		CEFB15791CBFDE8600D728FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = SplashBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashBall;
+			};
+			name = Debug;
+		};
+		CEFB157A1CBFDE8600D728FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SplashBallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruhX0105.SplashBallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SplashBall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFB153B1CBFDE8600D728FF /* Build configuration list for PBXProject "SplashBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB15701CBFDE8600D728FF /* Debug */,
+				CEFB15711CBFDE8600D728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFB15721CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB15731CBFDE8600D728FF /* Debug */,
+				CEFB15741CBFDE8600D728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFB15751CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB15761CBFDE8600D728FF /* Debug */,
+				CEFB15771CBFDE8600D728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEFB15781CBFDE8600D728FF /* Build configuration list for PBXNativeTarget "SplashBallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFB15791CBFDE8600D728FF /* Debug */,
+				CEFB157A1CBFDE8600D728FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFB15381CBFDE8600D728FF /* Project object */;
+}
